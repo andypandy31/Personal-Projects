@@ -1,0 +1,44 @@
+1) WinSock Initialisation.
+
+WSAStartup:
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-wsastartup
+
+WSACleanup:
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-wsacleanup
+
+
+2) Socket Creation.
+socket():
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-socket
+
+closesocket():
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-closesocket
+
+
+3) Connecting to a Target.
+connect():
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-connect
+
+
+4) Address Handling.
+sockaddr_in
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock/ns-winsock-sockaddr_in
+
+inet_pton()
+	https://learn.microsoft.com/en-us/windows/win32/api/ws2tcpip/nf-ws2tcpip-inet_pton
+
+
+5) Non-Blocking & Timeouts (Important for Performance).
+ioctlsocket():
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-ioctlsocket
+
+select():
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-select
+
+setsockopt():
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-setsockopt
+
+
+6) Error Handling.
+WSAGetLastError()
+	https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-wsagetlasterror
