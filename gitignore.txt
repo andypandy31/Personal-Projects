@@ -1,0 +1,20 @@
+# Build folders
+build/
+bin/
+out/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE folders
+.vs/
+.idea/
+
+# OS files
+.DS_Store
