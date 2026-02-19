@@ -6,7 +6,7 @@
 
 #pragma comment(lib, "ws2_32.lib") // Link against the Winsock library to resolve socket functions.
 
-void scanPort(const std::string& ipAddress, int port) {  //Function to scan a single port , takes the IP address and port number as parameters.
+void static scanPort(const std::string& ipAddress, int port) {  //Function to scan a single port , takes the IP address and port number as parameters.
     std::cout << "ScanPort started\n";
     SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);  //Creates a TCP socket also SOCK_STREAM can be swapwed with SOCK_DGRAM for UDP scanning.
     if (sock == INVALID_SOCKET) {
@@ -23,7 +23,7 @@ void scanPort(const std::string& ipAddress, int port) {  //Function to scan a si
     if (result == 0) {
         std::cout << "Port " << port << " is open." << std::endl; //Prints a message indicating that the port is open.
     }
-    if (result == -1) {
+    else if (result == -1) {
         int error = WSAGetLastError();
         std::cout << "Port " << port << " has retured : " << result << std::endl; //Prints a message indicating that the port is open.
         std::cout << "the error code was - :" << error << std::endl;
