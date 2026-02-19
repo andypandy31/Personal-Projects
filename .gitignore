@@ -55,3 +55,9 @@ Port-Scanner-VS-Poject/.vs/Port-Scanner-VS-Poject/v16/.suo
 *.ilk
 *.user
 Port-Scanner-VS-Poject/Port-Scanner-VS-Poject.vcxproj.user
+*.db
+*.obj
+*.tlog
+*.tlog
+*.lastbuildstate
+*.exe
