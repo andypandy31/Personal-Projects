@@ -46,3 +46,12 @@ Port-Scanner-VS-Poject/Debug/vc142.pdb
 /Port-Scanner-VS-Poject/.vs
 Port-Scanner-VS-Poject/.vs/Port-Scanner-VS-Poject/v16/.suo
 *.tlog
+*.recipe
+*.filters
+*.user
+*.vcxproj
+*.idb
+*.log
+*.ilk
+*.user
+Port-Scanner-VS-Poject/Port-Scanner-VS-Poject.vcxproj.user
